@@ -1,5 +1,5 @@
-# hello-world
-Hello world repository
+# Tech Execrise repository
+Tech Exercise repository
 
 Hello world, we are just following the tutorial of spring boot, and making some changes on this file.
 
