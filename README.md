@@ -4,7 +4,7 @@ Owner: Yimin, Zijun
 
 ## Tech Exercise 2
 
-Hello world, we are just following the tutorial of spring boot, and making some changes on Demo.<br />
+Hello world, we are just following the tutorial of spring boot, and making some changes on Demo fold.<br />
 Simply run the Demo1Application.java for showing the hello world in local server.
 
 ## Tech Exercise 3:
