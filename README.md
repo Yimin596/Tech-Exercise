@@ -1,5 +1,6 @@
 # Tech Execrise repository
-Tech Exercise repository
+Tech Exercise repository for CSCI4830 Software Engineering <br />
+Owner: Yimin, Zijun
 
 ## Tech Exercise 2
 
