@@ -16,8 +16,8 @@
                   }
                   
                   @GetMapping("/")
-                  public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-                  return String.format("Hello from the other side");
+                  public String hello(@RequestParam(value = "name", defaultValue = "Zijun") String name) {
+                  return String.format("Hello World! I am %s!", name");
                   }
               }
             
