@@ -17,7 +17,7 @@
                   
                   @GetMapping("/")
                   public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-                  return String.format("Hello from the other side");
+                  return String.format("Hello from the inside");
                   }
               }
             
