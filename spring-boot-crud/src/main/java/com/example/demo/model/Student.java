@@ -12,13 +12,15 @@ import javax.validation.constraints.NotBlank;
 @Table(name = "students")
 public class Student {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    
 
     @NotBlank(message = "Name is mandatory")
     @Column(name = "name")
     private String name;
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 
     @NotBlank(message = "Email is mandatory")
     @Column(name = "email")
@@ -27,6 +29,9 @@ public class Student {
     @Column(name = "phone_no")
     private long phoneNo;
 
+    @Column(name = "address")
+    private String address;
+    
     public Student() {}
 
     public Student(String name, String email) {
