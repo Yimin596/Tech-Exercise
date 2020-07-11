@@ -29,8 +29,6 @@ public class Student {
     @Column(name = "phone_no")
     private long phoneNo;
 
-    @Column(name = "address")
-    private String address;
     
     public Student() {}
 
